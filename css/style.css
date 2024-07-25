@@ -116,8 +116,8 @@ li {
 ul,
 ol {
 	list-style-position: outside;
-	padding-left: 0.8rem;
-	margin-left: 1rem;
+	padding-left: 1.6rem;
+	margin-left: 1.8rem;
 	display: grid;
 	gap: 0.8rem;
 }
@@ -148,6 +148,10 @@ li {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 0 1.6rem;
+}
+
+.nutrition__pair p {
+	padding-left: 3.2rem;
 }
 
 .nutrition .bold {
