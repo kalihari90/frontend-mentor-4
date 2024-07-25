@@ -35,7 +35,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-I've learnt to better organise my code. Biggest challenge was the mobile version, especially spacing ordered list. There was a lot of media queries on the mobile, but that's the cost of the desktop-first approach, which I prefer.
+I've learnt to better organise my code. Biggest challenge was spacing ordered list and the mobile version. There was a lot of media queries on the mobile, but that's the cost of the desktop-first approach, which I prefer.
 
 Mobile version media queries:
 
@@ -75,15 +75,6 @@ Mobile version media queries:
 
 	.instructions span {
 		padding-left: 1.6rem;
-	}
-
-	ol {
-		list-style-position: outside;
-		margin-left: 1rem;
-	}
-
-	li {
-		padding-left: 2.4rem;
 	}
 }
 ```

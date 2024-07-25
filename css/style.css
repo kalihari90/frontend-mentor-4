@@ -54,7 +54,7 @@ h3 {
 	font-weight: 600;
 	line-height: 1;
 	letter-spacing: 0px;
-	color: var(--brown-800);
+	color: var(--rose-800);
 }
 
 p,
@@ -115,8 +115,9 @@ li {
 
 ul,
 ol {
-	list-style-position: inside;
+	list-style-position: outside;
 	padding-left: 0.8rem;
+	margin-left: 1rem;
 	display: grid;
 	gap: 0.8rem;
 }
@@ -124,6 +125,10 @@ ol {
 li::marker {
 	color: var(--brown-800);
 	font-weight: 700;
+}
+
+li {
+	padding-left: 2.4rem;
 }
 
 .title,
@@ -216,14 +221,5 @@ li::marker {
 
 	.instructions span {
 		padding-left: 1.6rem;
-	}
-
-	ol {
-		list-style-position: outside;
-		margin-left: 1rem;
-	}
-
-	li {
-		padding-left: 2.4rem;
 	}
 }
