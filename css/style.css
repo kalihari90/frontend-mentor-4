@@ -113,6 +113,11 @@ li {
 	background-color: var(--rose-50);
 }
 
+.preparation .bold {
+	color: var(--stone-600);
+	font-weight: 600;
+}
+
 ul,
 ol {
 	margin-left: 0.8rem;
@@ -159,10 +164,7 @@ li {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 0 1.6rem;
-}
-
-.nutrition__pair p {
-	padding-left: 3.2rem;
+	padding-inline: 3.2rem;
 }
 
 .nutrition .bold {
