@@ -12,8 +12,9 @@ html {
 }
 
 body {
-	background-color: var(--stone-100);
+	min-height: 100vh;
 	font-size: 1.6rem;
+	background-color: var(--stone-100);
 }
 
 /* ---------- COLORS ---------- */
@@ -84,6 +85,38 @@ li {
 	outline: 0.01rem solid var(--stone-150);
 }
 
+/* ---------- LISTS ---------- */
+
+ul,
+ol {
+	list-style-position: outside;
+	display: grid;
+	gap: 0.8rem;
+	padding-left: 1.6rem;
+	margin-left: 0.8rem;
+}
+
+.preparation ul {
+	padding-left: 2rem;
+}
+
+li {
+	padding-left: 1.6rem;
+}
+
+li::marker {
+	color: var(--brown-800);
+	font-family: sans-serif;
+}
+
+ul li::marker {
+	font-size: 1.2rem;
+}
+
+.instructions li::marker {
+	font-weight: 600;
+}
+
 /* ---------- CARD  ---------- */
 
 .card {
@@ -119,35 +152,6 @@ li {
 .preparation .bold {
 	color: var(--stone-600);
 	font-weight: 600;
-}
-
-ul,
-ol {
-	margin-left: 0.8rem;
-}
-
-ul,
-ol {
-	list-style-position: outside;
-	padding-left: 1.6rem;
-	display: grid;
-	gap: 0.8rem;
-}
-
-.preparation ul {
-	padding-left: 2rem;
-}
-
-li::marker {
-	color: var(--brown-800);
-}
-
-.instructions li::marker {
-	font-weight: 600;
-}
-
-li {
-	padding-left: 1.6rem;
 }
 
 .title,
@@ -199,14 +203,14 @@ li {
 /* ---------- MEDIA QUERIES ---------- */
 
 /* TABLETS - 768px and below */
-@media (max-width: 768px) {
+@media (max-width: 76.8rem) {
 	.container {
 		max-width: 61.6rem;
 	}
 }
 /* MOBILE - 375px and below */
 
-@media (max-width: 375px) {
+@media (max-width: 37.5rem) {
 	.container {
 		max-width: 100%;
 		margin: 0;
